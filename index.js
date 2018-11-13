@@ -179,9 +179,9 @@ bot.on('message', message => {
             }
         }
         if(message.content === PREFIX + 'maxa') {
-            let role = message.guild.roles.find('name', 'Maxa')
+            let role = message.guild.roles.find('name', 'MaXa')
 
-            if(message.member.roles.find('name', 'Maxa')) {
+            if(message.member.roles.find('name', 'MaXa')) {
                 message.member.removeRole(role)
                 message.reply(`Vous n'avez plus le rôle Maxa ! :x:`)
             }
